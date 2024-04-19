@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "C57803B0-BD88-45A7-B7AE-276923D1159C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:ProductFeed.xcodeproj",
+          "identifier" : "831007D72BCEB11100D284FF",
+          "name" : "ProductFeed"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ProductFeed.xcodeproj",
+        "identifier" : "831007DF2BCEB11100D284FF",
+        "name" : "ProductFeedTests"
+      }
+    }
+  ],
+  "version" : 1
+}
